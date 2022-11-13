@@ -1,5 +1,6 @@
 window.onload = () => {
     const searchBar = document.getElementById('searchBar');
+    searchBar.focus();
 
     searchBar.addEventListener('keyup', (event) => {
         let searchText = searchBar.value;
