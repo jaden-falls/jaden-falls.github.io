@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #2E3440;
+    background-color: #2f383e;
     font-family: 'Poppins';
     display: flex;
     justify-content: center;
@@ -15,9 +15,9 @@ body {
 .container {
     width: 990px;
     height: 304px;
-    background-color: #373E4D;
+    background-color: #4b565c;
     border-radius: 34px;
-    border: 5px solid #5E81AC;
+    border: 5px solid #a7c080;
     position: relative;
     overflow: hidden;
 }
@@ -26,7 +26,7 @@ h1 {
     position: absolute;
     top: 0;
     left: 420px;
-    color: #5E81AC;
+    color: #a7c080;
 }
 
 img {
@@ -41,14 +41,14 @@ img {
     left: 420px;
     background: none;
     border: none;
-    border-bottom: 3px solid #A6B4CD;
-    color: #D6DCE8;
+    border-bottom: 3px solid #7fbbb3;
+    color: #d3c6aa;
     font-size: 20px;
     transition: .1s linear;
 }
 
 #searchBar:focus {
-    border-bottom: 3px solid #5E81AC;
+    border-bottom: 3px solid #dbbc7f;
     outline: none;
 }
 
@@ -56,6 +56,6 @@ svg {
     position: absolute;
     top: 105px;
     left: 380px;
-    stroke: #5E81AC;
+    stroke: #dbbc7f;
 }
 
