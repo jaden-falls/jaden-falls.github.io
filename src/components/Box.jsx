@@ -23,7 +23,7 @@ const Box = () => {
           className="w-[350px] h-full"
         />
         <HiMagnifyingGlass
-          className="absolute left-[350px] top-[155px] mx-5 text-2xl text-yellow"
+          className="absolute left-[350px] top-[130px] mx-5 text-2xl text-yellow"
           strokeWidth="1"
         />
         <input
@@ -32,7 +32,7 @@ const Box = () => {
           value={inputValue}
           onChange={handleInputChange}
           ref={input}
-          className="absolute bg-transparent border-b-[3px] border-yellow lg:w-[530px] md:w-[330px] top-[150px] left-[370px] ml-[40px] text-white focus:border-blue outline-none text-lg"
+          className="absolute bg-transparent border-b-[3px] border-yellow lg:w-[530px] md:w-[330px] top-[122px] left-[370px] ml-[40px] text-white focus:border-blue outline-none text-lg"
           onKeyPress={(e) => {
             if (e.key == "Enter") {
               if (inputValue != "") {
