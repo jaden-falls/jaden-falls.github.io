@@ -14,6 +14,8 @@ const Box = () => {
     "drive",
     "drivepms",
     "github",
+    "qconnect",
+    "flexisched",
   ];
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
@@ -86,6 +88,14 @@ const Box = () => {
                     break;
                   case shortcutRedirect[8]:
                     window.location.href = "https://github.com/";
+                    break;
+                  case shortcutRedirect[9]:
+                    window.location.href =
+                      "https://sis.pleasantonusd.net/StudentPortal/";
+                    break;
+                  case shortcutRedirect[10]:
+                    window.location.href = "https://pms.flexisched.net/";
+                    break;
                 }
               }
             }
